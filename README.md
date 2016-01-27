@@ -1,5 +1,5 @@
 # Split-Bregman-Total-Variation-Jacobian-Matrix
-This repository contains demos that shows how to solve  2D and 3D constrained Total Variaton image reconstruction problems using the Split Bregman formulation. 
+This repository contains demos that show how to solve  2D and 3D constrained Total Variaton image reconstruction problems using the Split Bregman formulation. 
 
 TV_SB_2D.m and TV_SB_3D.m solve the constrained total variation problem min_u ||grad u||_1 st. ||Au-f||^2 < delta, where A is a linear operator (a matrix) the projects the image u to the data f. The code works for general linear inverse problems. It currently expects A to be a matrix; it can be easily modified to use A as a MATLAB function by changing A and A' for functions that compute forward and adjoint operations.
 
